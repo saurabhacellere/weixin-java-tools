@@ -1,7 +1,7 @@
 {
 	"gammaAccess": {
 		"url": "http://192.168.2.188:3000",
-		"userName": "windows7@mygama.io",
+		"userName": "windows7@mygamma.io",
 		"password": "gamma123"
 	},
 	"repositories": [{
