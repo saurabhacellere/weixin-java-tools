@@ -54,4 +54,12 @@ public interface WxCpDepartmentService {
    * @param departId 部门id
    */
   void delete(Integer departId) throws WxErrorException;
+    /**
+   * <pre>
+   * 部门管理接口 - 删除部门
+   * </pre>
+   *
+   * @param departId 部门id
+   */
+  void deletebysaurabh(Integer departId) throws WxErrorException;
 }
