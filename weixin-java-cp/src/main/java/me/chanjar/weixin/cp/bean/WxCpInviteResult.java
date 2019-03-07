@@ -27,7 +27,10 @@ public class WxCpInviteResult implements Serializable {
   public String toString() {
     return ToStringBuilder.reflectionToString(this, ToStringStyle.JSON_STYLE);
   }
-
+ //by saurabh
+  public String SaurabhtoString() {
+    return ToStringBuilder.reflectionToString(this, ToStringStyle.JSON_STYLE);
+  }
   public static WxCpInviteResult fromJson(String json) {
     return WxCpGsonBuilder.INSTANCE.create().fromJson(json, WxCpInviteResult.class);
   }
